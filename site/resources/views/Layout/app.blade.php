@@ -18,7 +18,7 @@
     <link href="{{asset('css/animate.css')}}" rel="stylesheet">
 </head>
 <body>
-
+@include('Layout.menu')
 @yield('content')
 
 
