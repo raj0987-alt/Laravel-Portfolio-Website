@@ -20,7 +20,7 @@
                         <li class="nav-devider mt-0" style="margin-bottom: 5px"></li>
                         <li> <a href="index.html" ><span> <i class="fas fa-home"></i> </span><span class="hide-menu">Home</span></a></li>
                         <li> <a href="{{url('/visitor')}}" ><span> <i class="fas fa-users"></i> </span><span class="hide-menu">Visitor</span></a></li>
-                    	<li> <a href="service.html" ><span> <i class="fas fa-globe"></i> </span><span class="hide-menu">Services</span></a></li>
+                    	<li> <a href="{{url('/service')}}" ><span> <i class="fas fa-globe"></i> </span><span class="hide-menu">Services</span></a></li>
 					</ul>
                 </nav>
             </div>

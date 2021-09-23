@@ -14,29 +14,9 @@
 	  <th class="th-sm">Delete</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody id="service_table">
   
-	<tr>
-      <th class="th-sm"><img class="table-img" src="images/Knowledge.svg"></th>
-	  <th class="th-sm">আইটি কোর্স</th>
-	  <th class="th-sm">মোবাইল এবং ওয়েব এপ্লিকেশন ডেভেলপমেন্ট</th>
-	  <th class="th-sm"><a href="" ><i class="fas fa-edit"></i></a></th>
-	  <th class="th-sm"><a href="" ><i class="fas fa-trash-alt"></i></a></th>
-    </tr>	
-	<tr>
-      <th class="th-sm"><img class="table-img" src="images/Knowledge.svg"></th>
-	  <th class="th-sm">আইটি কোর্স</th>
-	  <th class="th-sm">মোবাইল এবং ওয়েব এপ্লিকেশন ডেভেলপমেন্ট</th>
-	  <th class="th-sm"><a href="" ><i class="fas fa-edit"></i></a></th>
-	  <th class="th-sm"><a href="" ><i class="fas fa-trash-alt"></i></a></th>
-    </tr>
-	<tr>
-      <th class="th-sm"><img class="table-img" src="images/Knowledge.svg"></th>
-	  <th class="th-sm">আইটি কোর্স</th>
-	  <th class="th-sm">মোবাইল এবং ওয়েব এপ্লিকেশন ডেভেলপমেন্ট</th>
-	  <th class="th-sm"><a href="" ><i class="fas fa-edit"></i></a></th>
-	  <th class="th-sm"><a href="" ><i class="fas fa-trash-alt"></i></a></th>
-    </tr>
+	
 	
 	
 	
@@ -47,6 +27,11 @@
 </div>
 </div>
 
+@endsection
 
+@section('script')
+<script type="text/javascript">
+	getServicesData();
+</script>
 
 @endsection
